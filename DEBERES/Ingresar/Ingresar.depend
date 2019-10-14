@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1571028842 source:c:\users\alex\documents\espe\extructura\ingresar\main.cpp
+	<iostream>
+	"Ingresar.h"
+
+1571034078 c:\users\alex\documents\espe\extructura\ingresar\ingresar.h
+	<iostream>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<stdio.h>
+
