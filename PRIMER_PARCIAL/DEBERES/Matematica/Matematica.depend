@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1571088863 source:c:\users\alex\documents\espe\estructura-de-datos\deberes\matematica\main.cpp
+	<iostream>
+	<stdlib.h>
+	"Ingresar.h"
+	"Matematica.h"
+	<math.h>
+
+1571086009 c:\users\alex\documents\espe\estructura-de-datos\deberes\matematica\ingresar.h
+	<iostream>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<stdio.h>
+
+1571091099 c:\users\alex\documents\espe\estructura-de-datos\deberes\matematica\matematica.h
+
+1571095244 source:c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\deberes\matematica\main.cpp
+	<iostream>
+	<stdlib.h>
+	"Ingresar.h"
+	"Matematica.h"
+	<math.h>
+
+1571086009 c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\deberes\matematica\ingresar.h
+	<iostream>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<stdio.h>
+
+1571095671 c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\deberes\matematica\matematica.h
+
