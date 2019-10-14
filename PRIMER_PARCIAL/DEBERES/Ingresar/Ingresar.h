@@ -131,6 +131,5 @@ float Ingreso::ingresarFloat(char *message){
 	}
 	if(contMenos>0)
         numeroFloat=numeroFloat*(-1);
-    std::cout<<std::endl<<"este 2 : "<<numeroFloat<<std::endl;
 	return numeroFloat;
 }
