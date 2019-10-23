@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1571243289 source:c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\evaluaciones\primeraprueba\main.cpp
+	<iostream>
+	"Ingresar.h"
+	"Matriz.h"
+
+1571093611 c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\evaluaciones\primeraprueba\ingresar.h
+	<iostream>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<stdio.h>
+
+1571243988 c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\evaluaciones\primeraprueba\matriz.h
+	<stdlib.h>
+	<time.h>
+
