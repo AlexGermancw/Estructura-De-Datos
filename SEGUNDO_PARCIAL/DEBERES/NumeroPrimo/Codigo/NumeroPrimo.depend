@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1574168410 source:c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\deberes\numeroprimo\codigo\main.cpp
+	"Lista.h"
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+	<pthread.h>
+	<unistd.h>
+	<string.h>
+	<conio.h>
+	<fstream>
+	"Primo.h"
+
+1574162964 c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\deberes\numeroprimo\codigo\lista.h
+	"Nodo.h"
+
+1574161988 c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\deberes\numeroprimo\codigo\nodo.h
+
+1574167417 source:c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\deberes\numeroprimo\codigo\lista.cpp
+	<iostream>
+	"Lista.h"
+
+1574162543 source:c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\deberes\numeroprimo\codigo\nodo.cpp
+	"Nodo.h"
+
+1574168318 source:c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\deberes\numeroprimo\codigo\primo.cpp
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+	<pthread.h>
+	<unistd.h>
+	<string.h>
+	<conio.h>
+	"Primo.h"
+
+1574168318 c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\deberes\numeroprimo\codigo\primo.h
+	"Lista.h"
+

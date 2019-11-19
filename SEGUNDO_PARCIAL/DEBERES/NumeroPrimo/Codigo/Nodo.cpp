@@ -1,0 +1,92 @@
+/***********************************************************************
+ * Module:  Nodo.cpp
+ * Author:  ALEX
+ * Modified: Tuesday, November 19, 2019 5:48:00 AM
+ * Purpose: Implementation of the class Nodo
+ ***********************************************************************/
+
+#include "Nodo.h"
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Nodo::Nodo()
+// Purpose:    Implementation of Nodo::Nodo()
+// Return:
+////////////////////////////////////////////////////////////////////////
+
+Nodo::Nodo()
+{
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Nodo::~Nodo()
+// Purpose:    Implementation of Nodo::~Nodo()
+// Return:
+////////////////////////////////////////////////////////////////////////
+
+Nodo::~Nodo()
+{
+   // TODO : implement
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Nodo::getSiguiente()
+// Purpose:    Implementation of Nodo::getSiguiente()
+// Return:     Nodo
+////////////////////////////////////////////////////////////////////////
+
+Nodo *Nodo::getSiguiente(void)
+{
+   return siguiente;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Nodo::setSiguiente(Nodo newSiguiente)
+// Purpose:    Implementation of Nodo::setSiguiente()
+// Parameters:
+// - newSiguiente
+// Return:     void
+////////////////////////////////////////////////////////////////////////
+
+void Nodo::setSiguiente(Nodo *newSiguiente)
+{
+   siguiente = newSiguiente;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Nodo::Nodo(int newNumero, Nodo newSiguiente)
+// Purpose:    Implementation of Nodo::Nodo()
+// Parameters:
+// - newNumero
+// - newSiguiente
+// Return:
+////////////////////////////////////////////////////////////////////////
+
+Nodo::Nodo(int newNumero, Nodo *newSiguiente)
+{
+   numero=newNumero;
+   siguiente=newSiguiente;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Nodo::getNumero()
+// Purpose:    Implementation of Nodo::getNumero()
+// Return:     int
+////////////////////////////////////////////////////////////////////////
+
+int Nodo::getNumero(void)
+{
+   return numero;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Nodo::setNumero(int newNumero)
+// Purpose:    Implementation of Nodo::setNumero()
+// Parameters:
+// - newNumero
+// Return:     void
+////////////////////////////////////////////////////////////////////////
+
+void Nodo::setNumero(int newNumero)
+{
+   numero = newNumero;
+}

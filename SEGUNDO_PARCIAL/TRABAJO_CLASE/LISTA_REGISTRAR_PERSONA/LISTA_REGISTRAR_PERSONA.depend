@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1573738859 source:c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\trabajo_clase\lista_registrar_persona\main.cpp
+	"Prototipo.h"
+	<iostream>
+	"Persona.h"
+	"Nodo.h"
+	"Prototipo.h"
+
+1573660642 source:c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\trabajo_clase\lista_registrar_persona\persona.cpp
+	"Persona.h"
+
+1573737452 c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\trabajo_clase\lista_registrar_persona\persona.h
+	<iostream>
+	<string.h>
+
+1573738921 source:c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\trabajo_clase\lista_registrar_persona\prototipo.cpp
+	"Prototipo.h"
+	<iostream>
+	<stdio.h>
+
+1573738882 c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\trabajo_clase\lista_registrar_persona\prototipo.h
+	"Nodo.h"
+	"Persona.h"
+
+1573737697 c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\trabajo_clase\lista_registrar_persona\nodo.h
+	"Persona.h"
+
+1573742013 source:c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\trabajo_clase\lista_registrar_persona\lista.cpp
+	"Lista.h"
+
+1573742012 c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\trabajo_clase\lista_registrar_persona\lista.h
+
+1573741107 source:c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\trabajo_clase\lista_registrar_persona\nodo.cpp
+
