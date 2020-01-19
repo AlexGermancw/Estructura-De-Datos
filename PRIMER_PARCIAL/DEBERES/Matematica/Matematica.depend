@@ -15,7 +15,7 @@
 
 1571091099 c:\users\alex\documents\espe\estructura-de-datos\deberes\matematica\matematica.h
 
-1571095244 source:c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\deberes\matematica\main.cpp
+1573227195 source:c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\deberes\matematica\main.cpp
 	<iostream>
 	<stdlib.h>
 	"Ingresar.h"
@@ -29,5 +29,7 @@
 	<string.h>
 	<stdio.h>
 
-1571095671 c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\deberes\matematica\matematica.h
+1573229442 c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\deberes\matematica\matematica.h
+	<stdlib.h>
+	<time.h>
 

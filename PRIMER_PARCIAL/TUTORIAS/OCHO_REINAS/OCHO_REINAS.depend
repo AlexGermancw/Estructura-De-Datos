@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1571928791 source:c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\tutorias\ocho_reinas\main.cpp
+	<iostream>
+	"OCHO_REINAS.h"
+
+1571929217 c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\tutorias\ocho_reinas\ocho_reinas.h
+	<iostream>
+	<fstream>
+

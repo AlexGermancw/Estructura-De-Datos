@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1572360158 source:c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\tutorias\backtraking\contador_vocales\main.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"Datos.h"
+	"Ingresar.h"
+
+1572365618 source:c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\tutorias\backtraking\contador_vocales\datos.cpp
+	"Datos.h"
+	<iostream>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<stdio.h>
+
+1572364275 c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\tutorias\backtraking\contador_vocales\datos.h
+	"Proceso.h"
+
+1572358950 c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\tutorias\backtraking\contador_vocales\proceso.h
+
+1572359956 c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\tutorias\backtraking\contador_vocales\ingresar.h
+	<iostream>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+

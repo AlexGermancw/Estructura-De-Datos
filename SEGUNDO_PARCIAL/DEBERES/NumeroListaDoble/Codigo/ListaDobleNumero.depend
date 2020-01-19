@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1575240197 source:c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\deberes\numerolistadoble\codigo\nodo.cpp
+	"Nodo.h"
+
+1574955151 c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\deberes\numerolistadoble\codigo\nodo.h
+
+1575299062 source:c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\deberes\numerolistadoble\codigo\lista.cpp
+	<iostream>
+	"Lista.h"
+	"Nodo.h"
+
+1575248961 c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\deberes\numerolistadoble\codigo\lista.h
+	"Nodo.h"
+
+1575301339 source:c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\deberes\numerolistadoble\codigo\main.cpp
+	<iostream>
+	"Nodo.h"
+	"Lista.h"
+	"NodoDoble.h"
+
+1575246020 source:c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\deberes\numerolistadoble\codigo\nododoble.cpp
+	"NodoDoble.h"
+	"Nodo.h"
+	<iostream>
+
+1575245568 c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\deberes\numerolistadoble\codigo\nododoble.h
+	"Nodo.h"
+

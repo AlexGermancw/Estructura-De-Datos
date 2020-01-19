@@ -1,0 +1,131 @@
+# depslib dependency file v1.0
+1573738859 source:c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\trabajo_clase\lista_registrar_persona\main.cpp
+	"Prototipo.h"
+	<iostream>
+	"Persona.h"
+	"Nodo.h"
+	"Prototipo.h"
+
+1573660642 source:c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\trabajo_clase\lista_registrar_persona\persona.cpp
+	"Persona.h"
+
+1573737452 c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\trabajo_clase\lista_registrar_persona\persona.h
+	<iostream>
+	<string.h>
+
+1573738921 source:c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\trabajo_clase\lista_registrar_persona\prototipo.cpp
+	"Prototipo.h"
+	<iostream>
+	<stdio.h>
+
+1573738882 c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\trabajo_clase\lista_registrar_persona\prototipo.h
+	"Nodo.h"
+	"Persona.h"
+
+1573737697 c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\trabajo_clase\lista_registrar_persona\nodo.h
+	"Persona.h"
+
+1573742013 source:c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\trabajo_clase\lista_registrar_persona\lista.cpp
+	"Lista.h"
+
+1573742012 c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\trabajo_clase\lista_registrar_persona\lista.h
+
+1573741107 source:c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\trabajo_clase\lista_registrar_persona\nodo.cpp
+
+1573742013 source:c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\trabajo_clase\lista_registrar_persona\codigo\lista.cpp
+	"Lista.h"
+
+1574162964 c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\trabajo_clase\lista_registrar_persona\codigo\lista.h
+	"Nodo.h"
+
+1574864926 source:c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\trabajo_clase\lista_registrar_persona\codigo\main.cpp
+	<iostream>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<stdio.h>
+	"Persona.h"
+	"Nodo.h"
+	"Prototipo.h"
+	"Ingresar.h"
+	"ProcesoMail.h"
+
+1574865927 c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\trabajo_clase\lista_registrar_persona\codigo\prototipo.h
+	"Nodo.h"
+
+1574865794 c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\trabajo_clase\lista_registrar_persona\codigo\nodo.h
+	"Persona.h"
+
+1574865793 c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\trabajo_clase\lista_registrar_persona\codigo\persona.h
+
+1574227915 source:c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\trabajo_clase\lista_registrar_persona\codigo\nodo.cpp
+	"Nodo.h"
+
+1574262133 source:c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\trabajo_clase\lista_registrar_persona\codigo\persona.cpp
+	"Persona.h"
+	<iostream>
+	<stdio.h>
+
+1574869987 source:c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\trabajo_clase\lista_registrar_persona\codigo\prototipo.cpp
+	<iostream>
+	<stdio.h>
+	<cstring>
+	<stdlib.h>
+	<cstddef>
+	<iostream>
+	"Prototipo.h"
+	"Persona.h"
+	"ProcesoMail.h"
+
+1574862554 c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\trabajo_clase\lista_registrar_persona\codigo\ingresar.h
+	<iostream>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<stdio.h>
+
+1574168318 source:c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\trabajo_clase\lista_registrar_persona\codigo\primo.cpp
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+	<pthread.h>
+	<unistd.h>
+	<string.h>
+	<conio.h>
+	"Primo.h"
+
+1574168318 c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\trabajo_clase\lista_registrar_persona\codigo\primo.h
+	"Lista.h"
+
+1574179990 source:c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\trabajo_clase\lista_registrar_persona\codigo\nodonumero.cpp
+	"NodoNumero.h"
+
+1574179918 c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\trabajo_clase\lista_registrar_persona\codigo\nodonumero.h
+
+1574180700 source:c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\trabajo_clase\lista_registrar_persona\codigo\listanumero.cpp
+	"ListaNumero.h"
+
+1574180940 c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\trabajo_clase\lista_registrar_persona\codigo\listanumero.h
+	"Nodo.h"
+
+1574866227 source:c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\trabajo_clase\lista_registrar_persona\codigo\nodocedula.cpp
+	"NodoCedula.h"
+
+1574866189 c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\trabajo_clase\lista_registrar_persona\codigo\nodocedula.h
+
+1574870185 source:c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\trabajo_clase\lista_registrar_persona\codigo\procesomail.cpp
+	"ProcesoMail.h"
+	<stdio.h>
+	<cstring>
+	<stdlib.h>
+	<cstddef>
+	<iostream>
+	"Prototipo.h"
+
+1574868312 c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\trabajo_clase\lista_registrar_persona\codigo\procesomail.h
+	"GenerarMail.h"
+	"Prototipo.h"
+
+1574230921 c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\trabajo_clase\lista_registrar_persona\codigo\generarmail.h
+	"Prototipo.h"
+

@@ -13,9 +13,10 @@ int main()
     obj.imprime(mat);
     cout<<endl<<endl<<"Aqui"<<endl;
     *(*(mat+0)+0)=5;
-    obj.juego(mat);
-    obj.imprime(mat);
-    cout<<endl<<endl<<"Aqui"<<endl;
+    if(obj.juego(mat))
+        obj.imprime(mat);
+    else
+        cout<<endl<<endl<<"Aqui"<<endl;
     obj.juego(mat);
     obj.imprime(mat);
     free(mat);

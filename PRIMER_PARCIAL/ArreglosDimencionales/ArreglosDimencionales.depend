@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1571121569 source:c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\deberes\arreglosdimencionales\main.cpp
+	<iostream>
+	"stdio.h"
+	"stdlib.h"
+	"conio.h"
+

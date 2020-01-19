@@ -16,6 +16,10 @@ using namespace std;
 int main()
 {
     cout << "Hello world!" << endl;
+
+
+
+
     Persona person;
     person.setNombre("Jessy");
     person.setApellido("ALex");
@@ -27,4 +31,11 @@ int main()
 
 
     return 0;
+}
+
+
+Persona ingresoDatos(){
+    Persona persona;
+
+
 }

@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1573232213 source:c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\deberes\cuadradomagico\main.cpp
+	<iostream>
+	"cuadrado.h"
+	"Ingreso.h"
+
+1573232193 c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\deberes\cuadradomagico\cuadrado.h
+	<iostream>
+
+1573232193 c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\deberes\cuadradomagico\ingreso.h
+	<iostream>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<stdio.h>
+

@@ -1,0 +1,104 @@
+/***********************************************************************
+ * Module:  Alumno.cpp
+ * Author:  ALEX
+ * Modified: Wednesday, October 30, 2019 9:46:11 AM
+ * Purpose: Implementation of the class Alumno
+ ***********************************************************************/
+
+#include "ProcesoMail.h"
+#include "Alumno.h"
+#include <cstddef>
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Alumno::Alumno()
+// Purpose:    Implementation of Alumno::Alumno()
+// Return:
+////////////////////////////////////////////////////////////////////////
+
+Alumno::Alumno()
+{
+   procesoMail = NULL;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Alumno::~Alumno()
+// Purpose:    Implementation of Alumno::~Alumno()
+// Return:
+////////////////////////////////////////////////////////////////////////
+
+Alumno::~Alumno()
+{
+   // TODO : implement
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Alumno::getIdAlumno()
+// Purpose:    Implementation of Alumno::getIdAlumno()
+// Return:     char*
+////////////////////////////////////////////////////////////////////////
+
+char* Alumno::getIdAlumno(void)
+{
+   return idAlumno;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Alumno::setIdAlumno(char* newIdAlumno)
+// Purpose:    Implementation of Alumno::setIdAlumno()
+// Parameters:
+// - newIdAlumno
+// Return:     void
+////////////////////////////////////////////////////////////////////////
+
+void Alumno::setIdAlumno(char* newIdAlumno)
+{
+   idAlumno = newIdAlumno;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Alumno::getTelefono()
+// Purpose:    Implementation of Alumno::getTelefono()
+// Return:     char *
+////////////////////////////////////////////////////////////////////////
+
+char * Alumno::getTelefono(void)
+{
+   return telefono;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Alumno::setTelefono(char * newTelefono)
+// Purpose:    Implementation of Alumno::setTelefono()
+// Parameters:
+// - newTelefono
+// Return:     void
+////////////////////////////////////////////////////////////////////////
+
+void Alumno::setTelefono(char * newTelefono)
+{
+   telefono = newTelefono;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Alumno::getMail()
+// Purpose:    Implementation of Alumno::getMail()
+// Return:     char *
+////////////////////////////////////////////////////////////////////////
+
+char * Alumno::getMail(void)
+{
+    return mail;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Alumno::setMail(char * newMail)
+// Purpose:    Implementation of Alumno::setMail()
+// Parameters:
+// - newMail
+// Return:     void
+////////////////////////////////////////////////////////////////////////
+
+void Alumno::setMail(char * newMail)
+{
+   mail = newMail;
+}

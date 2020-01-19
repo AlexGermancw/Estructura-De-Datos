@@ -1,9 +1,9 @@
 # depslib dependency file v1.0
-1571296517 source:c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\deberes\soduko_menoria_dinamica\main.cpp
+1571320550 source:c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\deberes\soduko_menoria_dinamica\main.cpp
 	<iostream>
 	"Soduko.h"
 
-1571296812 c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\deberes\soduko_menoria_dinamica\soduko.h
+1571320336 c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\deberes\soduko_menoria_dinamica\soduko.h
 	"stdio.h"
 	"stdlib.h"
 	"conio.h"

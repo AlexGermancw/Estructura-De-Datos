@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SegundaPrueba" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/SegundaPrueba" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Alumno.cpp" />
+		<Unit filename="Alumno.h" />
+		<Unit filename="Arreglo.cpp" />
+		<Unit filename="Arreglo.h" />
+		<Unit filename="Canton.cpp" />
+		<Unit filename="Canton.h" />
+		<Unit filename="FechaNacimiento.cpp" />
+		<Unit filename="FechaNacimiento.h" />
+		<Unit filename="GenerarMail.h" />
+		<Unit filename="Ingresar.h" />
+		<Unit filename="Parroquia.cpp" />
+		<Unit filename="Parroquia.h" />
+		<Unit filename="Persona.cpp" />
+		<Unit filename="Persona.h" />
+		<Unit filename="ProcesoMail.cpp" />
+		<Unit filename="ProcesoMail.h" />
+		<Unit filename="Provincia.cpp" />
+		<Unit filename="Provincia.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

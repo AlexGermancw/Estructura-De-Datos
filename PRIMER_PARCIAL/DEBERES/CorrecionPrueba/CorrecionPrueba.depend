@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1573232964 source:c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\deberes\correcionprueba\main.cpp
+	<stdio.h>
+	<iostream>
+	"Ingreso.h"
+	"MatrizP.h"
+
+1573232184 c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\deberes\correcionprueba\ingreso.h
+	<iostream>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<stdio.h>
+
+1573232878 c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\deberes\correcionprueba\matrizp.h
+	<stdio.h>
+	<iostream>
+	<time.h>
+	<stdlib.h>
+

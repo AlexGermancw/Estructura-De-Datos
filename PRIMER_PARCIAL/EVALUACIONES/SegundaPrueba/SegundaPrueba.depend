@@ -1,0 +1,85 @@
+# depslib dependency file v1.0
+1572968317 source:c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\evaluaciones\segundaprueba\fechanacimiento.cpp
+	"FechaNacimiento.h"
+	<stdio.h>
+	<cstring>
+	<stdlib.h>
+	<cstddef>
+
+1572967908 c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\evaluaciones\segundaprueba\fechanacimiento.h
+
+1572447067 source:c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\evaluaciones\segundaprueba\parroquia.cpp
+	"Parroquia.h"
+
+1572447067 c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\evaluaciones\segundaprueba\parroquia.h
+
+1572925236 source:c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\evaluaciones\segundaprueba\procesomail.cpp
+	"ProcesoMail.h"
+	<stdio.h>
+	<cstring>
+	<stdlib.h>
+	<cstddef>
+	"Alumno.h"
+
+1572918421 c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\evaluaciones\segundaprueba\procesomail.h
+	"GenerarMail.h"
+	"Alumno.h"
+
+1572918832 c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\evaluaciones\segundaprueba\generarmail.h
+	"Alumno.h"
+
+1573058793 source:c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\evaluaciones\segundaprueba\main.cpp
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+	"Arreglo.h"
+	"Alumno.h"
+	"ProcesoMail.h"
+	"Ingresar.h"
+
+1572966048 c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\evaluaciones\segundaprueba\alumno.h
+	"Persona.h"
+	"FechaNacimiento.h"
+
+1572966157 c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\evaluaciones\segundaprueba\persona.h
+	"Provincia.h"
+
+1572914826 source:c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\evaluaciones\segundaprueba\alumno.cpp
+	"ProcesoMail.h"
+	"Alumno.h"
+	<cstddef>
+
+1572657139 source:c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\evaluaciones\segundaprueba\canton.cpp
+	"Parroquia.h"
+	"Canton.h"
+	<cstddef>
+
+1572891477 c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\evaluaciones\segundaprueba\canton.h
+	"Parroquia.h"
+
+1572655546 source:c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\evaluaciones\segundaprueba\persona.cpp
+	"Provincia.h"
+	"FechaNacimiento.h"
+	"Persona.h"
+	<cstddef>
+
+1572891375 c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\evaluaciones\segundaprueba\provincia.h
+	"Canton.h"
+
+1572657114 source:c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\evaluaciones\segundaprueba\provincia.cpp
+	"Canton.h"
+	"Provincia.h"
+	<cstddef>
+
+1572993022 c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\evaluaciones\segundaprueba\ingresar.h
+	<iostream>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<stdio.h>
+
+1573012337 source:c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\evaluaciones\segundaprueba\arreglo.cpp
+	"Arreglo.h"
+
+1573011611 c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\evaluaciones\segundaprueba\arreglo.h
+

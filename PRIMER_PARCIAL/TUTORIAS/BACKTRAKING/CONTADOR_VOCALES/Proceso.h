@@ -16,7 +16,7 @@
 class Proceso
 {
 public:
-   virtual int contadorVocales(void)=0;
+   virtual int contadorVocales()=0;
    virtual void imprimir(void)=0;
 
 protected:

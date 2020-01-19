@@ -6,13 +6,6 @@
     FECHA DE CREACCION: 03/10/2019
     FECHA MODIFICACION: 10/10/2019
 *********************************************/
-/**
-  *@file Matematica.h
-  *@version 1.0
-  *@date 23/09/2019
-  *@author Alex German Chicaiza
-  *@title Funciones de matematicas
-  */
 
 
 class Matematica{
@@ -22,6 +15,9 @@ public:
     float seno(float angulo);
     float coseno(float angulo);
     float potenciacion(float base, int exponente);
+
+private:
+    float potenciaRecursiva(float base,int exponente);
 };
 
 
@@ -70,20 +66,35 @@ float Matematica::coseno(float angulo){
         resultado=resultado+(potenciacion(angulo,i*2)/factorial(i*2))*signo;
     }
     return signoAngulo*(resultado);
+    //free(ptr);
 }
 
+float Matematica::potenciaRecursiva(float base,int exponente){
+    if(exponente<=0){
+        return 1;
+
+    }else{
+        return base*potenciaRecursiva(base,exponente-1);
+    }
+}
 
 float Matematica::potenciacion(float base, int exponente){
     float potencia=1;
     if(exponente>0){
-        for(int i=0;i<exponente;i++){
-            potencia=potencia*base;
-        }
+            potencia=potenciaRecursiva(base,exponente);
     }else{
-        for(int i=exponente;i<0;i++){
-            potencia=potencia*base;
-        }
-        potencia=1/potencia;
+            exponente=exponente*(-1);
+            potencia=potenciacion(base,exponente);
+            potencia=1/potencia;
     }
     return potencia;
 }
+
+/*
+#include<stdlib.h>
+#include<time.h>
+srand(time(NULL));
+num = rand();
+num=rand()%51;
+num=1+rand()%(101-1);
+num=250+rand()%(421-250);*/

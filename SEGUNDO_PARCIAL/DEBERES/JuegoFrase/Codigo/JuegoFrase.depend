@@ -1,0 +1,58 @@
+# depslib dependency file v1.0
+1574782803 source:c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\deberes\juegofrase\codigo\lista.cpp
+	<iostream>
+	<stdio.h>
+	<cstring>
+	<stdlib.h>
+	<cstddef>
+	"Lista.h"
+
+1574268901 c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\deberes\juegofrase\codigo\lista.h
+	"Nodo.h"
+
+1574265092 c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\deberes\juegofrase\codigo\nodo.h
+
+1574782721 source:c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\deberes\juegofrase\codigo\main.cpp
+	<iostream>
+	<stdio.h>
+	<string.h>
+	<conio.h>
+	<fstream>
+	"Lista.h"
+	"Ingresar.h"
+	"ListaJugador.h"
+
+1574265078 source:c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\deberes\juegofrase\codigo\nodo.cpp
+	"Nodo.h"
+
+1574778780 c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\deberes\juegofrase\codigo\ingresar.h
+	<iostream>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<stdio.h>
+
+1574780814 source:c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\deberes\juegofrase\codigo\jugador.cpp
+	"Jugador.h"
+
+1574780814 c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\deberes\juegofrase\codigo\jugador.h
+
+1574780813 source:c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\deberes\juegofrase\codigo\listajugador.cpp
+	<iostream>
+	<stdio.h>
+	<cstring>
+	<stdlib.h>
+	<cstddef>
+	"ListaJugador.h"
+
+1574344700 c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\deberes\juegofrase\codigo\listajugador.h
+	"NodoJugador.h"
+	"Jugador.h"
+
+1574347954 c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\deberes\juegofrase\codigo\nodojugador.h
+	"Jugador.h"
+
+1574347972 source:c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\deberes\juegofrase\codigo\nodojugador.cpp
+	"NodoJugador.h"
+	"Jugador.h"
+

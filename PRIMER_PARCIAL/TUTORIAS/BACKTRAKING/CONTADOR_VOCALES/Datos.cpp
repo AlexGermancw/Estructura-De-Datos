@@ -12,7 +12,11 @@
  ***********************************************************************/
 
 #include "Datos.h"
-
+#include<iostream>
+#include<stdlib.h>
+#include<conio.h>
+#include<string.h>
+#include <stdio.h>
 ////////////////////////////////////////////////////////////////////////
 // Name:       Datos::Datos()
 // Purpose:    Implementation of Datos::Datos()
@@ -21,8 +25,9 @@
 
 Datos::Datos()
 {
-
+    dato=" ";
 }
+
 
 ////////////////////////////////////////////////////////////////////////
 // Name:       Datos::~Datos()
@@ -32,7 +37,7 @@ Datos::Datos()
 
 Datos::~Datos()
 {
-   // TODO : implement
+   free(dato);
 }
 
 ////////////////////////////////////////////////////////////////////////
@@ -41,7 +46,7 @@ Datos::~Datos()
 // Return:     char
 ////////////////////////////////////////////////////////////////////////
 
-char Datos::getDato(void)
+char *Datos::getDato(void)
 {
    return dato;
 }
@@ -54,7 +59,7 @@ char Datos::getDato(void)
 // Return:     void
 ////////////////////////////////////////////////////////////////////////
 
-void Datos::setDato(char newDato)
+void Datos::setDato(char *newDato)
 {
    dato = newDato;
 }
@@ -65,9 +70,18 @@ void Datos::setDato(char newDato)
 // Return:     int
 ////////////////////////////////////////////////////////////////////////
 
-int Datos::contadorVocales(void)
+int Datos::contadorVocales(char* cvCadenaTexto)
 {
-   // TODO : implement
+    if(*cvCadenaTexto == '\0') {
+        return 0;
+    }
+    if((*cvCadenaTexto == 'A')||(*cvCadenaTexto == 'E')
+        ||(*cvCadenaTexto == 'I')||(*cvCadenaTexto == 'O')
+        ||(*cvCadenaTexto == 'U')) {
+        return 1 + contadorVocales((++cvCadenaTexto));
+    }else {
+        return 0 + contadorVocales((++cvCadenaTexto));
+    }
 }
 
 ////////////////////////////////////////////////////////////////////////
@@ -79,4 +93,5 @@ int Datos::contadorVocales(void)
 void Datos::imprimir(void)
 {
    // TODO : implement
+   printf("Dato: %s",getDato());
 }

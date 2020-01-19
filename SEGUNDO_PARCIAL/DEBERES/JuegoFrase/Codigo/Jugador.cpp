@@ -1,0 +1,84 @@
+/***********************************************************************
+ * Module:  Jugador.cpp
+ * Author:  ALEX
+ * Modified: Thursday, November 21, 2019 8:53:22 AM
+ * Purpose: Implementation of the class Jugador
+ ***********************************************************************/
+
+#include "Jugador.h"
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Jugador::Jugador()
+// Purpose:    Implementation of Jugador::Jugador()
+// Return:
+////////////////////////////////////////////////////////////////////////
+
+Jugador::Jugador()
+{
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Jugador::~Jugador()
+// Purpose:    Implementation of Jugador::~Jugador()
+// Return:
+////////////////////////////////////////////////////////////////////////
+
+Jugador::Jugador(char* newFrase,int numer)
+{
+    frase=newFrase;
+    id=numer;
+}
+
+
+Jugador::~Jugador()
+{
+   // TODO : implement
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Jugador::getId()
+// Purpose:    Implementation of Jugador::getId()
+// Return:     int
+////////////////////////////////////////////////////////////////////////
+
+int Jugador::getId(void)
+{
+   return id;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Jugador::setId(int newId)
+// Purpose:    Implementation of Jugador::setId()
+// Parameters:
+// - newId
+// Return:     void
+////////////////////////////////////////////////////////////////////////
+
+void Jugador::setId(int newId)
+{
+   id = newId;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Jugador::getFrase()
+// Purpose:    Implementation of Jugador::getFrase()
+// Return:     char*
+////////////////////////////////////////////////////////////////////////
+
+char* Jugador::getFrase(void)
+{
+   return frase;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Jugador::setFrase(char* newFrase)
+// Purpose:    Implementation of Jugador::setFrase()
+// Parameters:
+// - newFrase
+// Return:     void
+////////////////////////////////////////////////////////////////////////
+
+void Jugador::setFrase(char* newFrase)
+{
+   frase = newFrase;
+}

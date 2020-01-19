@@ -1,0 +1,77 @@
+/***********************************************************************
+ * Module:  Persona.cpp
+ * Author:  mabel
+ * Modified: martes, 3 de diciembre de 2019 14:29:02
+ * Purpose: Implementation of the class Persona
+ ***********************************************************************/
+
+#include "Persona.h"
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Persona::Persona()
+// Purpose:    Implementation of Persona::Persona()
+// Return:     
+////////////////////////////////////////////////////////////////////////
+
+Persona::Persona()
+{
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Persona::~Persona()
+// Purpose:    Implementation of Persona::~Persona()
+// Return:     
+////////////////////////////////////////////////////////////////////////
+
+Persona::~Persona()
+{
+   // TODO : implement
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Persona::getId()
+// Purpose:    Implementation of Persona::getId()
+// Return:     int
+////////////////////////////////////////////////////////////////////////
+
+int Persona::getId(void)
+{
+   return id;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Persona::setId(int newId)
+// Purpose:    Implementation of Persona::setId()
+// Parameters:
+// - newId
+// Return:     void
+////////////////////////////////////////////////////////////////////////
+
+void Persona::setId(int newId)
+{
+   id = newId;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Persona::getNombre()
+// Purpose:    Implementation of Persona::getNombre()
+// Return:     string
+////////////////////////////////////////////////////////////////////////
+
+string Persona::getNombre(void)
+{
+   return nombre;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Persona::setNombre(string newNombre)
+// Purpose:    Implementation of Persona::setNombre()
+// Parameters:
+// - newNombre
+// Return:     void
+////////////////////////////////////////////////////////////////////////
+
+void Persona::setNombre(string newNombre)
+{
+   nombre = newNombre;
+}

@@ -35,7 +35,6 @@ int main()
     enter<<"\tUNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE\n\n\t\tsolucion "<<endl<<endl;
     enter.close();
 
-
     pthread_t proceso1;
     pthread_t proceso2;
     pthread_create(&proceso1,NULL,&hiloNumeroPrimo,&lista);
@@ -49,15 +48,17 @@ int main()
     lista->Imprimir();
     cout<<endl<<endl;
 
-
+    system("pause");
     return 0;
 }
+
+
 
 void *hiloNumeroPrimo(void *data){
     Primo proceso;
     fstream enter;
     enter.open("solucion.txt",fstream::app);
-    int numero=1;
+    int numero=2;
     while(bandera){
         if(proceso.validarPrimo(numero,numero/2)){
             cout<<"\t"<<numero<<"  "<<endl;
@@ -65,9 +66,11 @@ void *hiloNumeroPrimo(void *data){
             enter<<"\t"<<numero<<endl;
         }
         numero++;
-        _sleep(10);
+        //_sleep(5);
     }
 }
+
+
 
 void *hiloParar(void *data){
     char tecla;

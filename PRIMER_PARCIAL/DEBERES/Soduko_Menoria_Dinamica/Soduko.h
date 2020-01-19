@@ -7,11 +7,13 @@ class Soduko{
 
 public:
     bool validarPosicion(int **mat,int fila,int columna,int numero);
-    void juego(int **mat);
+    bool juego(int **mat);
     void llenarMatriz(int **mat,int fila,int columna,int numero);
     void imprime(int **mat);
     int **crearMatriz();
     void encerar(int ** m);
+private:
+    bool buscarPosicion(int **mat,int &f,int &c);
 
 };
 
@@ -38,21 +40,21 @@ bool Soduko::validarPosicion(int **mat,int fila,int columna,int numero)
     //std::cout<<numero<<std::endl;
     //printf("   %d\n",*(*(mat+fila)+columna));
     /**verificar si el espacio ya se encuentra ocupado*/
-    if(*(*(mat+fila)+columna)!=0)
-        return false;
+    //if(*(*(mat+fila)+columna)!=0)
+      //  return false;
 
     /**verificar si el numero se encuentra en la fila o columna*/
     for(int i=0;i<9;i++)
     {
         if(*(*(mat+fila)+i)==numero){
             //printf("f %i c %i\n",fila,i);
-            return false;
+            return true;
         }
 
         if(*(*(mat+i)+columna)==numero)
         {
             //printf("f %i c %i\n",i,columna);
-            return false;
+            return true;
         }
 
     }
@@ -75,11 +77,11 @@ bool Soduko::validarPosicion(int **mat,int fila,int columna,int numero)
         for(int j=columnaCuadrante;j<columnaCuadrante+3;j++)
         {
             if(*(*(mat+i)+j)==numero)
-                return false;
+                return true;
         }
     }
 
-    return true;
+    return false;
 }
 
 
@@ -103,28 +105,38 @@ bool Soduko::validarPosicion(int **mat,int fila,int columna,int numero)
     }
 
 }*/
-void Soduko::juego(int **mat){
 
-    int num,inicio=1;
-    for(int i=0;i<9;i++)
-    {
-        for(int j=0;j<9;j++)
-        {
-            for(num=1;num<10;num++)
-            {
-                if(validarPosicion(mat,i,j,num))
-                {
-                    *(*(mat+i)+j)=num;
-                    break;
-                }
+/*busca si hay algun espacio ocupado*/
+bool Soduko::buscarPosicion(int **mat,int &f,int &c){//mat=matriz, f=direccion de fila, c=direccion de columna
+    for(f=0;f<9;f++){
+        for(int c=0;c<9;c++){
+            if((*(*(mat+f)+c))==0){
+                return true;
             }
-            if(num>=9)
-                inicio=1;
-            else
-                inicio=num;
         }
-        inicio=1;
     }
+}
+
+
+bool Soduko::juego(int **mat){
+
+    int fila,columna;
+    int num;
+
+    if(!buscarPosicion(mat,fila,columna))
+        return true;
+    printf("%i",num);
+    for(num=1;num<10;num++)
+    {
+        if(validarPosicion(mat,fila,columna,num) && *(*(mat+fila)+columna)==0)
+        {
+            *(*(mat+fila)+columna)=num;
+            if(juego(mat))
+                return true;
+            *(*(mat+fila)+columna)=0;
+        }
+    }
+    return false;
 
 }
 

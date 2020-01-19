@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1574168410 source:c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\deberes\numeroprimo\codigo\main.cpp
+1574264107 source:c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\deberes\numeroprimo\codigo\main.cpp
 	"Lista.h"
 	<iostream>
 	<stdlib.h>
@@ -16,7 +16,7 @@
 
 1574161988 c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\deberes\numeroprimo\codigo\nodo.h
 
-1574167417 source:c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\deberes\numeroprimo\codigo\lista.cpp
+1574181175 source:c:\users\alex\documents\espe\estructura-de-datos\segundo_parcial\deberes\numeroprimo\codigo\lista.cpp
 	<iostream>
 	"Lista.h"
 

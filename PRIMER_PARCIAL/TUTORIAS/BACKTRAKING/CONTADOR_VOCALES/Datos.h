@@ -13,21 +13,21 @@
 #if !defined(__Class_Diagram_ContadorVocales2_Datos_h)
 #define __Class_Diagram_ContadorVocales2_Datos_h
 
-#include <Proceso.h>
+#include "Proceso.h"
 
 class Datos : public Proceso
 {
 public:
    Datos();
    ~Datos();
-   char getDato(void);
-   void setDato(char newDato);
-   int contadorVocales(void);
+   char *getDato(void);
+   void setDato(char *newDato);
+   int contadorVocales(char* cvCadenaTexto);
    void imprimir(void);
 
 protected:
 private:
-   char dato;
+   char *dato;
 
 
 };

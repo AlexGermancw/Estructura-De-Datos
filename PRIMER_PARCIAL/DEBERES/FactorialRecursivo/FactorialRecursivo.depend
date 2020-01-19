@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1573229926 source:c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\deberes\factorialrecursivo\main.cpp
+	<iostream>
+	"FactorialRecursivo.h"
+	"Ingresar.h"
+
+1573229926 c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\deberes\factorialrecursivo\factorialrecursivo.h
+
+1571086009 c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\deberes\factorialrecursivo\ingresar.h
+	<iostream>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<stdio.h>
+
+1573229955 source:c:\users\alex\documents\espe\estructura-de-datos\primer_parcial\deberes\factorialrecursivo\factorialrecursivo.cpp
+	"FactorialRecursivo.h"
+
